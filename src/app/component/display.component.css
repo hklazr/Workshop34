@@ -1,0 +1,25 @@
+.weather-box {
+    border: 1px solid #afafaf;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    background-color: #eda735;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+  }
+  
+  .weather-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .weather-icon {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .weather-text {
+    text-align: center;
+    padding: 10px 0;
+  }
+  

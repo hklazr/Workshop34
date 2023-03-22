@@ -1,0 +1,13 @@
+<div class="weather-box">
+    <table class="weather-table">
+      <tr *ngFor="let weather of weather">
+        <td>
+          <img class="weather-icon" src="https://openweathermap.org/img/wn/{{ weather.icon }}@4x.png" alt="">
+        </td>
+        <td class="weather-text">
+          <code>{{ weather.main }} - {{ weather.description }}</code>
+        </td>
+      </tr>
+    </table>
+  </div>
+  

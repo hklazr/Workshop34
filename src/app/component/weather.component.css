@@ -1,0 +1,40 @@
+.weather-form {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-table {
+    display: inline-block;
+    border-collapse: collapse;
+  }
+  
+  .city-input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    background-color: #879189;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #1e201e;
+  }
+  
+  .submit-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

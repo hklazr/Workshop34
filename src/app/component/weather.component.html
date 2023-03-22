@@ -1,0 +1,26 @@
+<!-- <form [formGroup]="cityForm" >
+    <label for="city">City: </label>
+    <input type="text" id="city" formControlName="city">
+    <button type="submit" [disabled]="cityForm.invalid">Get</button>
+  </form> -->
+
+<body>
+  <form [formGroup]="cityForm" (ngSubmit)="getCityWeather()" class="weather-form">
+    <table class="form-table">
+      <tr>
+        <td><strong>City:</strong></td>
+        <td>
+          <input type="text" size="30" formControlName="city" class="city-input">
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <button type="submit" [disabled]="cityForm.invalid" class="submit-btn">
+            Get Weather
+          </button>
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
