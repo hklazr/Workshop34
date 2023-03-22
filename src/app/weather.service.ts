@@ -6,7 +6,7 @@ import { firstValueFrom } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 const WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather"
-const API_KEY = "6f5f90e5c425bab1804050703e213404"
+const API_KEY = "MY_API_KEY";
 
 @Injectable({
   providedIn: 'root'
